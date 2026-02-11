@@ -1,0 +1,35 @@
+# Gradle's build directory
+build/
+
+# Gradle's local cache
+.gradle/
+
+# Output directories
+out/
+build/
+bin/
+
+# Ignore all IntelliJ configuration
+.idea/
+*.iml
+
+.vscode/
+
+# Eclipse configurations
+*.launch
+local.properties
+.settings/
+.loadpath
+.recommenders
+.metadata
+
+# Other useful things to ignore
+.DS_Store
+*.class
+a.out
+*.exe
+*.dll
+*~
+*.pyc
+
+node_modules/
