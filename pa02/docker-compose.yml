@@ -1,0 +1,16 @@
+version: '3'
+
+services:
+  db:
+    container_name: db
+    image: mongo
+    restart: unless-stopped
+    volumes:
+       - dbdata:/data/db
+       - dbconfig:/data/configdb
+    ports:
+      - "27017:27017"
+
+volumes:
+  dbdata:
+  dbconfig:

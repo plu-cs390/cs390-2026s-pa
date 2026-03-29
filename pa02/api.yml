@@ -1,0 +1,353 @@
+openapi: 3.0.0
+info:
+  title: GeoLocations
+  description: An API for working with Geo-location information.
+  version: 1.0
+servers:
+  - url: http://localhost:8888
+paths:
+  /poi:
+    get:
+      tags:
+        - poi
+      summary: List all POI that match the search criteria
+      description: Produces a list of all POI that are located within
+        radius of the search center, and name or tags contain the (optional) 
+        search query
+      operationId: ''
+      parameters:
+        - name: lat
+          in: query
+          description: Latitude of the center of the search
+          required: true
+          schema:
+            type: float
+        - name: long
+          in: query
+          description: Longitude of the center of the search
+          required: true
+          schema:
+            type: float
+        - name: radius
+          in: query
+          description: The search radius
+          required: true
+          schema:
+            type: float
+      responses:
+        '200':
+          description: Successful response.
+          content:
+            application/json:
+              examples:
+                list:
+                  value:
+                    [
+                      {
+                        "address": "115-215 Garfield St S",
+                        "id": "65400b93d6da1e5ebbc576af",
+                        "location": {
+                          "coordinates": [
+                            -122.435043,
+                            47.146196
+                          ],
+                          "type": "Point",
+                          "x": -122.435043,
+                          "y": 47.146196
+                        },
+                        "name": "Farrelli’s Pizza, Parkland",
+                        "tags": "pizza, pasta, restaurant"
+                      },
+                      {
+                        "address": "208 Garfield St S",
+                        "id": "65400b93d6da1e5ebbc57660",
+                        "location": {
+                          "coordinates": [
+                            -122.43552,
+                            47.145979
+                          ],
+                          "type": "Point",
+                          "x": -122.43552,
+                          "y": 47.145979
+                        },
+                        "name": "208 Garfield",
+                        "tags": "restaurant"
+                      },
+                      {
+                        "address": "212 Garfield St S Tacoma, WA 98444",
+                        "id": "65400b93d6da1e5ebbc57681",
+                        "location": {
+                          "coordinates": [
+                            -122.434776,
+                            47.145837
+                          ],
+                          "type": "Point",
+                          "x": -122.434776,
+                          "y": 47.145837
+                        },
+                        "name": "Pita Pit",
+                        "tags": "restaurant"
+                      }
+                    ]
+                empty:
+                  value: []
+    post:
+      tags:
+        - poi
+      summary: Create a new POI
+      requestBody:
+        description: The data for the new POI.
+        content:
+          application/json:
+            schema:
+              type: object
+            example:
+              {
+                "address": "115-215 Garfield St S",
+                "location": {
+                  "coordinates": [
+                    -122.435043,
+                    47.146196
+                  ]
+                },
+                "name": "Farrelli’s Pizza, Parkland",
+                "tags": "pizza, pasta, restaurant"
+              }
+      responses:
+        '201':
+          description: Successful response.  Returns new object including database ID.
+          content:
+            application/json:
+              example:
+                {
+                  "address": "115-215 Garfield St S",
+                  "id": "65400b93d6da1e5ebbc576af",
+                  "location": {
+                    "coordinates": [
+                      -122.435043,
+                      47.146196
+                    ],
+                    "type": "Point",
+                    "x": -122.435043,
+                    "y": 47.146196
+                  },
+                  "name": "Farrelli’s Pizza, Parkland",
+                  "tags": "pizza, pasta, restaurant"
+                }
+
+  /poi/{id}:
+    get:
+      tags:
+        - poi
+      summary: Return a POI by ID
+      description: Produces a single POI with the given ID
+      parameters:
+        - name: id
+          in: path
+          description: The ID of the POI
+          required: true
+          schema:
+            type: string
+      responses:
+        '200':
+          description: Successful response.
+          content:
+            application/json:
+              example:
+                {
+                  "address": "115-215 Garfield St S",
+                  "id": "65400b93d6da1e5ebbc576af",
+                  "location": {
+                    "coordinates": [
+                      -122.435043,
+                      47.146196
+                    ],
+                    "type": "Point",
+                    "x": -122.435043,
+                    "y": 47.146196
+                  },
+                  "name": "Farrelli’s Pizza, Parkland",
+                  "tags": "pizza, pasta, restaurant"
+                }
+        '404':
+          description: POI not found
+    delete:
+      tags:
+        - poi
+      summary: Delete a POI by ID
+      description: Deletes a single POI with the given ID.  If there are any reviews associated with this ID, 
+        the reviews are also deleted.
+      parameters:
+        - name: id
+          in: path
+          description: The ID of the POI
+          required: true
+          schema:
+            type: string
+      responses:
+        '204':
+          description: In all cases
+  /poi/{id}/location:
+    patch:
+      tags:
+        - poi
+      parameters:
+        - name: id
+          in: path
+          description: The ID of the POI
+          required: true
+          schema:
+            type: string
+      summary: Change the location of a POI
+      description: Change only the location of a POI, without
+       changing anything else within the POI.
+      requestBody:
+        description: The new location.
+        content:
+          application/json:
+            schema:
+              type: object
+            example:
+              {
+                "coordinates": [ 1, 2 ]
+              }
+      responses:
+        '204':
+          description: Successful response, body includes the new changed object.
+          content:
+            application/json:
+              example:
+                {
+                  "address": "85 Pike Street",
+                  "id": "65400b93d6da1e5ebbc5763f",
+                  "location": {
+                    "coordinates": [
+                      1.0,
+                      2.0
+                    ],
+                    "type": "Point",
+                    "x": 1.0,
+                    "y": 2.0
+                  },
+                  "name": "Pike Place Market",
+                  "tags": "food"
+                }
+        '404':
+          description: POI not found with the given ID.
+
+  /poi/{id}/reviews:
+    post:
+      tags:
+        - reviews
+      summary: Create a new review for a POI
+      parameters:
+        - name: id
+          in: path
+          description: The ID of the POI
+          required: true
+          schema:
+            type: string
+      requestBody:
+        description: The data for the review.
+        content:
+          application/json:
+            schema:
+              type: object
+            example:
+              {
+                "stars": 4,
+                "review": "Great food, nice atmosphere"
+              }
+      responses:
+        '201':
+          description: Successful response, body includes new Review with database ID
+          content:
+            application/json:
+              example:
+                {
+                  "id": "6544276a1b387165b54d8d3f",
+                  "poiId": "65400b93d6da1e5ebbc5763f",
+                  "review": "Great food, nice atmosphere",
+                  "stars": 4
+                }
+        '404':
+          description: POI with the given ID is not found.
+    get:
+      tags:
+        - reviews
+      summary: Return a list of all reviews for a given POI.
+      description: Produces a list of only reviews for the given POI ID.
+      parameters:
+        - name: id
+          in: path
+          description: The ID of the POI
+          required: true
+          schema:
+            type: string
+      responses:
+        '200':
+          description: Successful response.
+          content:
+            application/json:
+              example:
+                [
+                  {
+                    "id": "643b282cde7f392c6601f161",
+                    "poiId": "643b276ede7f392c6601f123",
+                    "review": "Great food, nice atmosphere.",
+                    "stars": 4
+                  },
+                  {
+                    "id": "643b2845de7f392c6601f162",
+                    "poiId": "643b276ede7f392c6601f123",
+                    "review": "Love their pizza!",
+                    "stars": 5
+                  }
+                ]
+        '404':
+          description: POI not found
+  /reviews/{id}:
+    delete:
+      tags:
+        - reviews
+      summary: Delete a review by ID
+      description: Deletes a single review with the given ID
+      parameters:
+        - name: id
+          in: path
+          description: The ID of the review
+          required: true
+          schema:
+            type: string
+      responses:
+        '204':
+          description: In all cases
+    put:
+      tags:
+        - reviews
+      parameters:
+        - name: id
+          in: path
+          description: The ID of the review
+          required: true
+          schema:
+            type: string
+      summary: Replace review with a new review
+      description: Replace review with a new review without changing
+        the review's ID.
+      requestBody:
+        description: The new review data
+        content:
+          application/json:
+            schema:
+              type: object
+            example:
+              {
+                "stars": 4,
+                "review": "Great food, nice atmosphere"
+              }
+      responses:
+        '204':
+          description: Successfully updated
+        '404':
+          description: POI not found with the given ID.
