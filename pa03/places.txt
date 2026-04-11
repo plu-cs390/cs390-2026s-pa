@@ -1,0 +1,174 @@
+Pike Place Market	85 Pike Street	food	47.60865	-122.34059
+Gasworks Park	2101 N Northlake Way	park	47.64686	-122.33391
+Experience Music Project	325 5th Avenue N	museum	47.62145	-122.34828
+Space Needle	400 Broad Street	attraction, tourism	47.62051	-122.34928
+Original Starbucks	1912 Pike Place	coffee, original	47.61015	-122.34248
+Seattle Aquarium	1483 Alaskan Way, Pier 59	fun, fish	47.60611	-122.34248
+Pike Place Market	85 Pike Street	shopping, food, market	47.60865	-122.34059
+Seattle Art Museum	1300 1st Avenue	art, museum	47.60723	-122.33781
+Gas Works Park	2101 N Northlake Way	amusement, park	47.64686	-122.33391
+Olympic Sculpture Park	2901 Western Avenue	park, sculpture	47.6169	-122.35645
+Washington State Ferries	Pier 52, 801 Alaskan Way	boats, ferries, water	47.60268	-122.33774
+Museum of History and Industry	860 Terry Ave N	museum, history, industry	47.62768	-122.33674
+Molly Moon's Homemade Ice Cream	2615 NE 46th St	food	47.66179	-122.30341
+Fremont Troll	3405 Troll Ave N	point of interest, art, sculpture	47.65113	-122.347361
+Washington Park Arboretum	2300 Arboretum Dr E	union bay	47.635939	-122.293384
+Woodland Park Zoo	601 N. 59th St.	zoo, food	47.670218	-122.353579
+Century Link Field	800 Occidental Ave. S.	stadium, sports	47.59454	-122.33139
+Seattle Great Wheel	1301 Alaskan Way	amusement attraction	47.606054	-122.341035
+Pacific Science Center	200 2nd Ave. N.	museum, movie_theater	47.619777	-122.352856
+Wild Waves Theme Park	36201 Enchanted Pkwy S, Federal Way	tourist attraction, amusement park	47.27425	-122.31048
+Microsoft Store	2624 NE University Village St.	electronics store	47.66328	-122.30075
+Gameworks	1511 7th Ave	arcade, dining	47.61206	-122.33396
+Umi Sake House	2230 1st Ave	restaurant, sushi	47.60899	-122.3508
+Shiro's Sushi Restaurant	2401 2nd Ave	restaurant, sushi	47.61478	-122.34731
+Japonessa Sushi	1400 1st Ave, Seattle	restaurant, sushi, japanese	47.60802	-122.33905
+Musashi's	1400 N 45th St	restaurant, sushi	47.66161	-122.34047
+Pike Place Market	85 Pike Street	food, tourism	47.60865	-122.34059
+Gasworks Park	2101 N Northlake Way	park	47.64686	-122.33391
+Fremont Troll	3405 Troll Ave N	park, tourism, art	47.650877	-122.347990
+Space Needle	400 Broad St	tourism, restaurant, landmark	47.620528	-122.349410
+Warthog BBQ Pit	11811 Pacific ave S	restaurant, BBQ	47.149279	-122.434026
+Paradise Bowl Entertainment Center	12505 Pacific ave S	bowling, entertainment, restaurant	47.143109	-122.433786
+Walmart	20307 Mountain Hwy E	shopping	47.073654	-122.419957
+208 Garfield	208 Garfield St S	restaurant	47.145979	-122.435520
+Walgreens	12105 Pacific Ave S	Convenience Store	47.127143	-122.433679
+Starbucks	12821 Pacific Ave S	Coffee Shop	47.140651	-122.434100
+Tacoma Mall	4502 S Steele St	Shopping Mall	47.216129	-122.468459
+Regal Cinemas Lakewood 15 & RPX	2410 84th St S,	Movie Theater	47.179745	-122.468537
+Museum of Glass	1801 Dock St	tourism, museum	47.245357	-122.432383
+Point Defiance Zoo and Aquarium	5400 N Pearl St	zoo, tourism	47.304888	-122.521079
+Washington State History Museum	1911 Pacific Ave	museum, tourism	47.244707	-122.435364
+Washington State Park	110 9th Ave SW	amusement park, tourism, entertainment	47.182605	-122.294719
+Tacoma Art Museum	1701 Pacific Ave	museum, tourism	47.247334	-122.436073
+Seattle-Tacoma International Airport	17801 International Blvd	transportation	47.456056	-122.308594
+CenturyLink Field	800 Occidental Ave S	entertainment, tourism	47.595333	-122.33167
+Key Arena	305 Harrison St	entertainment	47.622339	-122.353967
+Olympic Game Farm	1423 Ward Rd	entertainment, tourism, zoo	48.135348	-123.146905
+Powell’s Books	1005 W Burnside St	entertainment, tourism, educational	45.523307	-122.681423
+Brookdale Golf Course	1802 Brookdale Rd E	entertainment, sport, recreational, golf	47.127871	-122.407583
+McChord AFB	Jointbase Lewis-McChord	military, defense, security	47.134866	-122.486020
+Lakewood Towne Center	5731 Main St SW	entertainment, dining, social, recreational	47.163309	-122.515472
+Pierce County Skills Center	16117 Canyon Rd E	educational	47.109318	-122.356704
+The Classic Golf Club	4908 208th St E	entertainment, sport, recreational, golf	47.063623	-122.362502
+Naval Base Kitsap-Bangor	Naval Trident Base	military, defense, security	47.704157	-122.723346
+Lagerquist Concert Hall	868 Wheeler St S	entertainment, tourism	47.146709	-122.445891
+Morken Center for Learning and Technology	1010 S 122nd St	educational	47.145936	-122.446599
+Marzano’s Restaurant	516 Garfield St S	restaurant	47.146230	-122.439068
+Keithley Middle School	12324 12th Ave S	education	47.145691	-122.451746
+Barnes & Noble	Lakewood Towne Center, 5711 Main St SW	Book store	47.161902	-122.512641
+Museum of Glass	1801 Dock St, Tacoma, WA 980402	Galleries, artwork, entertainment	47.245394	-122.433703
+The Paramount Theatre	911 Pine St, Seattle,  WA 98101	Performing arts theater	47.613271	-122.331380
+Benaroya Hall	200 University St, Seattle WA 98101	Concert Hall	47.608084	-122.336970
+Gum Wall	1428 Post Alley, Seattle WA 98101	Tourist Attraction	47.608374	-122.340274
+Tingelstad Hall	609 125th St S Tacoma, WA 98444	college dormitory	47.143706	-122.441894
+Olson Gymnasium	124TH E S St Tacoma, WA 98404	college gymnasium	47.144690	-122.445687
+Post Office	320 Garfield St S Tacoma, WA 98444	U.S. postal service	47.145933	-122.436612
+Pita Pit	212 Garfield St S Tacoma, WA 98444	restaurant	47.145837	-122.434776
+Baskin Robbins	12155 Pacific Ave S Tacoma, WA 98444	ice cream	47.146570	-122.433981
+Jade Pacific Restaurant	12154 Pacific Ave S Tacoma, WA 98444	Food	47.146632	-122.434871
+Spanaway Fitness Center	13819 Pacific Ave S Tacoma, WA 98444	Gym	47.130972	-122.433796
+K & K Laundry & Alteration	13815 Pacific Ave S Tacoma, WA 98444	Laundry Services	47.130926	-122.434092
+iFLY Seattle Indoor Skydiving	349 Tukwila Pkwy, Tukwila, WA 98188	Entertainment	47.460981	-122.252230
+El Torro	202 138th St E Tacoma, WA 98445	Food	47.131379	-122.429308
+Chapel Hill Presbyterian Church	7700 Skansie Ave Gig Harbor, WA 98335	Church	47.329446	-122.602054
+Kopachuck State Park, 56th St NW	Gig Harbor, WA 98335	Park, wildlife	47.310362	-122.682278
+Chambers Bay Walk	University Place, WA 98466	Walk, Trail	47.200636	-122.570899
+Meadow Park Golf Course	6800-6998 Lakewood Dr W Tacoma, WA 98467	Golf	47.195737	-122.510474
+Dash Point State Park, 5700 SW Dash Point Rd	Federal Way, WA 98023	park, wildlife	47.312763	-122.406013
+Shipwreck beads	2801-8575 Commerce Pl Dr NE	shopping	47.074036	-122.757336
+QFC Parkland	11006 Pacific Ave S	food, grocery	47.157122	-122.436271
+The Showbox at the Market	105 1/2 Pike St	concert venue	47.608734	-122.339362
+Saltwater State Park	Des Moines	park	47.375430	-122.318484
+Des Moines Marina	22307 Dock Ave S	tourism, boating, fishing	47.401653	-122.329304
+Lakewood Racquet Club	5820 112th St SW, Tacoma, WA 98499	Tennis Club	47.154483	-122.514633
+Tacoma General Multicare Hospital	315 M.L.K. Jr Way, Tacoma, WA 98405	Hospital	47.259572	-122.453132
+Costco Wholesale	2219 S 37th St, Tacoma, WA 98409	Grocery, Clothing, Technology	47.225402	-122.468208
+Chick-Fil-A	3902 S Steele St, Tacoma, WA 98409	Fast Food Restaurant	47.221775	-122.468949
+Washington State Fair	110 9th Ave SW, Puyallup, WA 98371	Fairgrounds	47.182773	-122.295695
+Lake Spanaway Golf Course	15602 Pacific Ave S, Tacoma, WA 98444	golf course	47.1168368	-122.4395428
+Chambers Bay Golf Course	6320 Grandview Dr W, University Place, WA 98467	golf course	47.2004036	-122.5705597
+The Home Course	2300 Golf House Rd, Dupont, WA 98327	golf course	47.1037809	-122.6670198
+Gold Mountain Golf Club	7263 W Belfair Valley Rd, Bremerton, WA 98310	golf course	47.5218721	-122.7535168
+High Cedars Golf Club	14604 149th Street Court, Orting, WA 98360	golf course	47.1199095	-122.2350859
+Spanaway Lake High School	1305 168th St E, Spanaway, WA 98387	High School	47.104893	-122.412736
+Evergreen Elementary School	1311 172nd St E, Spanaway, WA 98387	Elementary School	47.101611	-122.412083
+Pacific Lutheran University	12180 Park Ave S, Tacoma, WA 98447	University	47.146415	-122.441846
+Ridgefield National Wildlife Refuge	1071 S Hillhurst Rd, Ridgefield, WA 98642	Wildlife Refuge	45.806241	-122.756187
+Bonnie Lure State Park	SE Dowty Rd, Eagle Creek, OR 97022	State Park	45.352011	-122.376971
+Tacoma Dome	2727 E D St, Tacoma, WA 98421	concert hall, stadium, field, event, center, dome	47.236669	-122.427021
+Family Fun Center	7300 Fun Center Way, Tukwila, WA 98188	family, fun, center, arcade, go-kart, birthday	47.464870	-122.083592
+Alpental Ski Area	17800 Alpental Access Rd, Snoqualmie Pass, WA 98068	skiing, snowboarding, recreation, snow, winter, sport	47.444270	-121.425962
+LeMay America’s Car Museum	2702 East D St, Tacoma, WA 98421	museum, cars, auto, show	47.236172	-122.430023
+Wa-Mu Theatre	800 Occidental Ave S Seattle, WA 98134	concert, hall	47.593198	-122.331597
+Safeco Field	1250 1st Ave S Seattle, WA 98134	Baseball field	47.5914	-122.3325
+Key Arena	305 Harrison St, Seattle, WA 98109	Basketball Arena	47.6221	-122.3541
+St. Mary’s Church	755 137th St S	Religion, Church, Christian, Catholic	47.132499	-122.443149
+Dorky’s Arcade	Interstate 705	fun, arcade, tourism	47.258477	-122.439686
+Tacoma Convention Center	1500 Broadway	tourism, conference, convention	47.248591	-122.438849
+Allenmore Golf Course	2013 S Cedar St	tourism, golf, sports, park	47.240013	-122.475711
+Costco Wholesale	2219 S 37th St	food, grocery, costco, shopping, gas	47.225278	-122.468205
+Spanaway BigFoot Java	13573 Pacific Ave S	food, coffee, drive-thru	47.138794	-122.433906
+Trinity Lutheran Church	12115 Park Ave S	church, Lutheran, religion	47.147385	-122.438645
+Farrelli's Pizza, Parkland	115-215 Garfield St S	pizza, pasta, restaurant	47.146196	-122.435043
+Red Robin	3901 S Steele St	Burgers, restaurant	47.221573	-122.467710
+Tacoma Goodwill	3121 S 38th St	Thrift store	47.223471	-122.477928
+Dickey’s Barbecue Pit	8425 S Hosmer St	Restaurant, barbecue	47.180171	-122.462717
+McDonald’s	14820 Pacific Ave S	 restaurant, fast food	47.122144	-122.435259
+Albertson’s	104 Military Rd S	grocery, supermarket	47.117300	-122.432584
+Frugals	10727 Pacific Ave S	thrift store	47.159736	-122.433890
+CruZin Auto Sales	9226 A St	auto shop, cars	47.172331	-122.433033
+University of Puget Sound	1500 N Warner St	university, education, school	47.15467	-122.28557
+Memorial View Memorial Park	4100 Steilacoom Blvd SW	park	47.10529	-122.29313
+Star Lite Swap Meet	8327 S Tacoma Way	thrift store, swap meet, flea market	47.10565	-122.28509
+Clover Park Technical College	4500 Steilacoom Blvd SW	college, technical school	47.10314	-122.29552
+Wapato Park	6500 S Sheridan Ave	park	47.11464	-122.27198
+ShoWare Center	625 W James St, Kent, WA 98032	ThunderBirds, hockey, basketball	47.387260	-122.239903
+Kent Station	301 Railroad Ave N, Kent, WA 98032	Shopping,Theatre,food,resturant	47.383827	-122.234100
+Westlake	400 Pine St, Seattle, WA 98101	food, shopping	47.612241	-122.337653
+GameWorks	1511 7th Ave, Seattle, WA 98101	video games, arcade	47.612104	-122.334087
+Kentwood High School	25800 164th Ave SE, Covington, WA 98042	education,school,torture	47.370447	-122.120515
+Sprinker Recreation Center	14824 C St S, Tacoma, WA 98444	tennis, racquetball, hockey, ice skating	47.122644	-122.438300
+Pizza Hut	14923 Pacific Ave s, Tacoma WA 98444	food, restaurant	47.121363	-122.434447
+Subway	17415 Pacific Ave S, Spanaway, WA 98387	food, restaurant	47.098973	-122.433811
+Sally Beauty Supply	17911 Pacific Ave S, Spanaway, WA 98387	beauty products/equipment	47.096212	-122.433355
+Game Stop	20219-20241 Mountain Hwy E, Spanaway, WA 98387	video game retail	47.073585	-122.421135
+Amc Lakewood Mall 12	5721 Main St SW, Lakewood, WA 98499	theater, movies, datenight	47.162736	-122.512143
+The Office Bar and Grill	813 Pacific Ave, Tacoma, WA 98402	bar, drinks, food, nightlife	47.255904	-122.438575
+Fitness Evolution	6704 19th St W, Tacoma, WA 98466	gym, fitness, health	47.241896	-122.527011
+Applebees	3819 Bridgeport Way W, University Place, WA 98466	food, dining, drinks, restaurant	47.222100	-122.536586
+Morgan Family YMCA	1002 S Pearl St, Tacoma, WA 98465	gym, fitness, recreation, volunteer, health, community, kids	47.252063	-122.516228
+Fairmont Olympic Hotel	411 University St	Seattle, WA 98101	47.608089	-122.333656
+Paramount Theatre	911 Pine St,	Seattle, WA 98101	47.613290	-122.331371
+Grand Hyatt Seattle	721 Pine St,	Seattle, WA 98101	47.612285	-122.333109
+Microsoft Corporation	1 Microsoft Way,	Redmond, WA 98052	47.639601	-122.127390
+Northern Pacific Coffee Co	401 Garfield St S Tacoma, WA 98444	food, drinks, coffee, cafe	47.146578	-122.437312
+The 5th Avenue Theatre	Rainier Square, 1308 5th Ave, Seattle, WA 98101	theatre, entertainment	47.609267	-122.333836
+Benihana	1200 5th Ave, Seattle, WA 981011	food, tourism, restaurant	47.608365	-122.332874
+Rock Bottom Restaurant & Brewery	Rainier Square, 1333 5th Ave, Seattle, WA 98101	food, beer, pizza, restaurant	47.609410	-122.334771
+Pacific Science Center	200 2nd Ave N, Seattle, WA 98109	museum	47.619426	-122.351480
+Husky Stadium	University of Washington, 3800 Montlake Blvd NE, Seattle, WA 98105	stadium, sports, entertainment, tourism	47.650293	-122.301692
+Metronome Coffee	3518 6th Ave, 101, Tacoma, WA 98406	coffee, cafe, open-mike, music	47.255326	-122.483272
+Anthem Coffee & Tea	1911 Pacific Ave, Tacoma, WA 98402	coffee, cafe, pizza, restaurant	47.244529	-122.435815
+B Sharp Coffee House	706 Opera Alley, Tacoma, WA 98402	coffee, cafe, jazz, restaurant, culture	47.257550	-122.442028
+Tully’s Coffee	764 Broadway, Tacoma, WA 98402	coffee, cafe, roast, tacoma	47.255668	-122.440759
+Parkland/Spanaway Pierce County Library	13718 Pacific Ave S. Tacoma, WA 98444	library, books, parkland, spanaway,	47.132298	-122.435992
+Papa Murphy’s Take N’ Bake Pizza	13720 Pacific Ave S. Tacoma, WA 98444	pizza,  food,  parkland	47.131801	-122.435101
+Home Depot	303 35th Ave SE, Puyallup, WA 98374	tools, puyallup, home improvement	47.159099	-122.289466
+South Hill Mall	3500 S Meridian, Puyallup, WA 98373	shopping, mall,  puyallup	47.157814	-122.296510
+Saar’s Market Place Foods	13322 Pacific Ave S. Tacoma, WA 98444	grocery, parkland, food	47.135886	-122.436116
+University of Washington Seattle	Seattle, WA 98105	university	47.655335	-122.303584
+University of Washington Tacoma	1900 Commerce St, Tacoma, WA 98402	university	47.244449	-122.437533
+Chipotle Mexican Restaurant	Tacoma Mall, 4502 S Steele St, Tacoma, WA 98409	Mexican restaurant	47.216622	-122.465111
+Panera Bread	Tacoma Mall, 4502 S Steele St, Tacoma, WA 98409	sandwich shop	47.216622	-122.465111
+Krispy Kreme	4302 Tacoma Mall Bouelvard, Tacoma, WA 98409	donut shop	47.217967	-122.463806
+Skyline Trail	Ashford, WA 98304	hiking	46.786858	-121.735412
+REI	222 Yale Ave N Seattle, WA 98109	outdoor sports	47.620256	-122.329825
+International mountain guides	31111 WA-706, Ashford, WA 98304	climbing guides	46.774141	-122.039722
+Solo Point	Solo Point Rd, DuPont, WA 98327	beach	47.128198	-122.633257
+Museum of Glass	1801 Dock St, Tacoma, WA 98402	museum	47.245505	-122.433717
+Edgeworks Climbing	6102 North 9th Street #200, Tacoma, WA 98406	climbing	47.15265	-122.3116
+King County Aquatic Center	650 SW Campus Dr, Federal Way, WA 98023	swimming	47.1744	-122.2036
+QFC	4101 49th Ave NE, Tacoma, WA 98422	food	47.1739	-122.2249
+Walmart	1965 S Union Ave, Tacoma, WA 98405	food	47.1424	-122.2842
+Jack in the Box	2420 Pacific Ave, Tacoma, WA 98402	food	47.1422	-122.2608
